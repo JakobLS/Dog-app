@@ -62,6 +62,7 @@ img + img {
     display:flex;
     align-items: flex-end;
     justify-content: flex-start;
+    position: fixed;
     width: 50vw;
     height: 40vh;
 }
