@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Pictures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap">
+    <link rel="stylesheet" href="styles/dog-app.css" type="text/css">
+</head>
+<body>
+    <main>
+        <div class="header center">
+            <h1>Random Dog Images</h1>
+        </div>
+        <div class="main-section">
+            <div class="left-side">
+                <div class="input-section center">
+                    <form id="js-dog-image-form">
+                        <p>Number of random dog images to display</p>
+                        <input id="nbr-images" class="js-image-entry" type="text" autofocus="on" maxlength="2" placeholder="1-50">
+                        <button type="submit" class="btn js-lucky-btn">I'm lucky!</button>
+                    </form>
+                </div>
+                <div class="next-section">
+                    <p class="breeds">Search by <a href="breed.html" alt="Search by breed" class="internal-link">Breed</a></p>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="output-section js-output-section">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="module" src="scripts/dog-app.js"></script>
+</body>
+</html>
+
