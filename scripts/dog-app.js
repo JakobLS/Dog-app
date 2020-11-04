@@ -65,7 +65,7 @@ function breedButtonClicked() {
     $('#js-breed-image-form').submit(event => {
         event.preventDefault();
         const img = $('.js-breed-entry').val();
-        const imgString = createBreedString(img);
+        const imgString = createBreedString(img.toLowerCase());
         getDogImages(imgString);
     });
 }
